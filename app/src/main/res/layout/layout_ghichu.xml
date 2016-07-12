@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ToolBarSize"
+        android:background="@color/light_blue"
+        android:id="@+id/toolbar">
+        app:theme="@style/ToolBarThemder"
+        app:popupTheme="@style/Theme.AppCompat"
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Ngày tháng năm"
+            android:id="@+id/txtngaythangnam"
+            style="@style/font1"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/font1"
+            android:id="@+id/btnngaythangnam"
+            android:text="@string/caidat_ngaythang"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="Giờ Phút"
+                android:id="@+id/txtgiophut"
+                style="@style/font1"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/font1"
+                android:id="@+id/btngiophut"
+                android:text="@string/caidat_thoigian"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ghichu2"
+            style="@style/fontedittext"
+            android:padding="@dimen/padding"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/fontedittext"
+            android:id="@+id/edtghichu"
+            android:padding="@dimen/padding"
+            android:hint="Mô tả :"/>
+</LinearLayout>

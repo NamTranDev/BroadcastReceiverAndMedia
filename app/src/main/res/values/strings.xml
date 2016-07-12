@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">  NamTran</string>
+    <string name="readnew">   Đọc Báo</string>
+    <string name="country">   Countries</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="ghichu1">Ghi Chú</string>
+    <string name="ghichu2">Ghi Chú :</string>
+
+    <string name="caidat_thoigian">Thời gian</string>
+    <string name="caidat_ngaythang">Ngày tháng năm</string>
+    <string name="luu">Lưu</string>
+
+    <string name="openDrawer">Open Drawer </string>
+    <string name="closeDrawer">Close Drawer </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="item_ghichu">Ghi Chú</string>
+    <string name="item_readnew">Đọc Báo</string>
+    <string name="item_country">Countrys</string>
+
+</resources>

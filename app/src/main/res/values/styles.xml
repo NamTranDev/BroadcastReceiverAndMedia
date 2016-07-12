@@ -1,0 +1,79 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="font" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:color">@color/light_blue</item>
+    </style>
+    <style name="font1" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_chu_thuong</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="fonttieude" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_tieu_de</item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/light_green</item>
+    </style>
+    <style name="fonttieudeheader" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">30sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/red</item>
+    </style>
+    <style name="fontchu" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_chu_thuong</item>
+        <item name="android:gravity">center</item>
+        <item name="android:color">@color/black</item>
+    </style>
+    <style name="fontedittext" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_size_chu_thuong</item>
+        <item name="android:gravity">left</item>
+        <item name="android:color">@color/black</item>
+    </style>
+
+
+
+    <!-- Backward-compatible version of ?android:attr/buttonBarStyle -->
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+
+    <style name="ToolBarThemder" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/abc_primary_text_material_dark</item>
+        <item name="android:actionMenuTextColor">@color/abc_primary_text_material_dark</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_dark</item>
+    </style>
+
+    <style name="dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ThemeDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">#5fa3d0</item>
+        <item name="android:textColorPrimary">#000000</item>
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    
+    <style name="TexttoolBar">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:textColor">@color/primary_dark_material_light</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+</resources>
